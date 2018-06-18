@@ -116,6 +116,8 @@ header img {
   padding: 0.5rem 0;
 }
 
+/* tablet screen portrait */
+
 @media only screen and (max-width: 1024px) {
   .navigation .container {
     display: none;
@@ -164,4 +166,49 @@ footer {
   padding: 5rem 0;
   margin-top: 4rem;
   background-color: #000000;
+}
+
+/* phone screen */
+
+@media only screen and (max-width: 470px) {
+  .main-banner {
+    height: 15rem;
+  }
+
+  .headline-box {
+    width: 100%;
+    padding: 1rem 2rem;
+    top: 10rem;
+  }
+
+  .headline-box h2 {
+    font-size: 0.77rem;
+  }
+
+  .headline-box h4 {
+    font-size: 1rem;
+  }
+
+  .product-watch,
+  .product-glass {
+    display: none;
+  }
+
+  .product-pen {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .info {
+    flex-wrap: wrap;
+  }
+
+  .details {
+    width: 90%;
+    margin: 0.5rem auto;
+  }
+
+  footer {
+    text-align: center;
+  }
 }
